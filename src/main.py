@@ -4,7 +4,8 @@ from obligations import ObligationsManager
 print("Smart Accounting Bot is starting 🚀")
 
 
-manager = ObligationsManager()
+manager = ObligationsManager
+income_manager = IncomeManager()
 
 print("مرحبا بك في المحاسب المالي الذكي 🤖")
 
@@ -17,3 +18,8 @@ while True:
     manager.add_obligation(name, amount)
 
 print("إجمالي الالتزامات:", manager.total_obligation
+Smart-Accounting-Assistant
+└── src
+    ├── main.py          ← التشغيل
+    ├── obligations.py  ← الالتزامات
+    └── income.py       ← الأرباح
