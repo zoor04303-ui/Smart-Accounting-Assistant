@@ -1,5 +1,4 @@
 from obligations import ObligationsManager
-from revenue import RevenueManager
 print("Smart Accounting Bot is starting 🚀")
 from obligations import ObligationsManager
 
