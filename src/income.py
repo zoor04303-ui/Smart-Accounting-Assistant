@@ -3,10 +3,8 @@ class IncomeManager:
         self.incomes = []
 
     def add_income(self, source, amount):
-        self.incomes.append({
-            "source": source,
-            "amount": amount
-        })
+        self.incomes.append(amount)
+        print(f"تمت إضافة دخل من {source} بقيمة {amount}")
 
     def total_income(self):
-        return sum(item["amount"] for item in self.incomes)
+        return sum(self.incomes)
