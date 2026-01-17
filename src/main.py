@@ -3,9 +3,9 @@ from income import IncomeManager
 from obligations import ObligationsManager
 print("Smart Accounting Bot is starting 🚀")
 
-
-manager = ObligationsManager
+manager = ObligationsManager()
 income_manager = IncomeManager()
+
 
 print("مرحبا بك في المحاسب المالي الذكي 🤖")
 
