@@ -14,3 +14,5 @@ while True:
     manager.add_obligation(name, amount)
 
 print("إجمالي الالتزامات:", manager.total_obligations())
+from obligations import ObligationsManager
+from revenue import RevenueManager
