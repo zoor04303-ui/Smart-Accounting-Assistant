@@ -12,7 +12,9 @@ while True:
     print("1 - إضافة دخل")
     print("2 - إضافة التزام")
     print("3 - عرض الملخص")
-    print("4 - خروج")
+    print("4 - elif choice == "4":
+    print("👋 تم الخروج، بالتوفيق")
+    break")
 
     choice = input("اختيارك: ")
 
