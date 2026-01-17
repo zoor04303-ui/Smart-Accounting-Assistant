@@ -1,6 +1,6 @@
 from obligations import ObligationsManager
 print("Smart Accounting Bot is starting 🚀")
-from obligations import ObligationsManager
+
 
 manager = ObligationsManager()
 
