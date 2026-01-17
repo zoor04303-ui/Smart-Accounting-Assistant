@@ -7,14 +7,13 @@ print("🤖 مرحباً بك في المحاسب المالي الذكي")
 income_manager = IncomeManager()
 obligations_manager = ObligationsManager()
 
+
 while True:
-    print("\nاختر عملية:")
+    print("اختر عملية:")
     print("1 - إضافة دخل")
     print("2 - إضافة التزام")
     print("3 - عرض الملخص")
-    print("4 - elif choice == "4":
-    print("👋 تم الخروج، بالتوفيق")
-    break")
+    print("4 - خروج")
 
     choice = input("اختيارك: ")
 
@@ -30,9 +29,10 @@ while True:
 
     elif choice == "3":
         print("💰 إجمالي الدخل:", income_manager.total_income())
-        print("📌 إجمالي الالتزامات:", obligations_manager.total_obligations())
-        print("📊 الصافي:", income_manager.total_income() - obligations_manager.total_obligations())
 
     elif choice == "4":
         print("👋 تم الخروج، بالتوفيق")
         break
+
+    else:
+        print("❌ اختيار غير صحيح")
